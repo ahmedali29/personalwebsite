@@ -6,27 +6,21 @@ let projectsList = [
       src: "./assets/profile.jpg",
       type: "front",
     },
-    {
+   /* {
       id: "2",
       name: "Book Store",
       url: "https://instagram.com",
       src: "./assets/img/photo-1500964757637-c85e8a162699.jpeg",
       type: "full",
-    },
+    }*/
     {
       id: "3",
       name: "Memory Game",
       url: "https://facebook.com",
       src: "./assets/memory.jpg",
       type: "front",
-    },
-    {
-      id: "4",
-      name: "Rest API",
-      url: "https://whatsapp.com",
-      src: "./assets/img/photo-1500964757637-c85e8a162699.jpeg",
-      type: "back",
-    },
+    }
+,
     {
       id: "5",
       name: "Calculator",
@@ -34,19 +28,26 @@ let projectsList = [
       src: "./assets/calc.jpg",
       type: "front",
     },
-    {
+  /*  {
       id: "6",
       name: "Chat App",
       url: "https://google.com",
       src: "./assets/img/photo-1500964757637-c85e8a162699.jpeg",
       type: "full",
-    },
+    }*/
+     /* {
+      id: "4",
+      name: "Rest API",
+      url: "https://whatsapp.com",
+      src: "./assets/img/photo-1500964757637-c85e8a162699.jpeg",
+      type: "back",
+    }*/
   ];
   
   window.onload = function () {
     typing();
     document.getElementById("age").innerText = getMyAge();
-    handleFilterGallary("all");
+    handleFilterGallary("front");
   };
   
   function typing(
@@ -179,4 +180,19 @@ let projectsList = [
   function handleSidebarToggle() {
     document.getElementById("sidebar").classList.toggle("open");
     document.getElementById("overlay").classList.toggle("open");
+  }
+
+
+
+  //Form
+
+  function sendMail(){
+    var params = {
+      from_name : document.getElementById("fullName").value,
+      email_id : document.getElementById("email_id").value,
+      message : document.getElementById("message").value
+    }
+    emailjs.send("service_dmfltt5", "template_9o6f2zl", params).then(function(res){
+      alert("success");
+    })
   }
