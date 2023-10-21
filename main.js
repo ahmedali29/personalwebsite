@@ -2,9 +2,9 @@ let projectsList = [
     {
       id: "1",
       name: "Landing Page",
-      url: "https://google.com",
+      url: "https://personalwebsite-git-main-ahmedali29.vercel.app/",
       src: "./assets/profile.jpg",
-      type: "front",
+      type: "javascript",
     },
    /* {
       id: "2",
@@ -16,17 +16,59 @@ let projectsList = [
     {
       id: "3",
       name: "Memory Game",
-      url: "https://facebook.com",
+      url: "",
       src: "./assets/memory.jpg",
-      type: "front",
+      type: "javascript",
     }
 ,
     {
       id: "5",
       name: "Calculator",
-      url: "https://twitter.com",
+      url: "",
       src: "./assets/calc.jpg",
-      type: "front",
+      type: "javascript",
+    },
+    {
+      id: "6",
+      name: "Snake game",
+      url: "",
+      src: "./assets/Snake game.jpg",
+      type: "javascript",
+    },
+    {
+      id: "6",
+      name: "To do app",
+      url: "",
+      src: "./assets/Todo app.jpg",
+      type: "react",
+    },
+    {
+      id: "7",
+      name: "E-commerce CRUD",
+      url: "",
+      src: "./assets/crud.jpg",
+      type: "react",
+    },
+    {
+      id: "8",
+      name: "Cashier",
+      url: "",
+      src: "./assets/cashier.jpg",
+      type: "react",
+    },
+    {
+      id: "9",
+      name: "Facebook sign up",
+      url: "",
+      src: "./assets/facebooksignup.jpg",
+      type: "html",
+    },
+    {
+      id: "10",
+      name: "Youtube clone",
+      url: "",
+      src: "./assets/youtubeclone.jpg",
+      type: "html",
     },
   /*  {
       id: "6",
@@ -47,7 +89,7 @@ let projectsList = [
   window.onload = function () {
     typing();
     document.getElementById("age").innerText = getMyAge();
-    handleFilterGallary("front");
+    handleFilterGallary("all");
   };
   
   function typing(
