@@ -287,7 +287,6 @@ p {
 
 #portfolio {
   min-height: 100vh;
-  padding-left: 300px;
 }
 
 .portfolio__gallary {
@@ -367,8 +366,17 @@ p {
 
 #contact {
   min-height: 100vh;
-  margin-left: 300px;
 
+}
+
+@media (min-width: 768px) {
+  #contact {
+    margin-left: 300px;
+  
+  }
+  #portfolio {
+    padding-left: 300px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -524,6 +532,7 @@ h4 {
   font-size: 20px;
   color: #9b9b9b;
   line-height: 1.5;
+
 }
 
 /* ///// inputs /////*/
