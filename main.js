@@ -16,7 +16,7 @@ let projectsList = [
     {
       id: "3",
       name: "Memory Game",
-      url: "",
+      url: "http://memory-game2023.vercel.app",
       src: "./assets/memory.jpg",
       type: "javascript",
     }
@@ -24,7 +24,7 @@ let projectsList = [
     {
       id: "5",
       name: "Calculator",
-      url: "",
+      url: "http://ahcalculator.vercel.app",
       src: "./assets/calc.jpg",
       type: "javascript",
     },
