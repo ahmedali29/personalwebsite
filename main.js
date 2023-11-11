@@ -38,7 +38,7 @@ let projectsList = [
     {
       id: "6",
       name: "To do app",
-      url: "",
+      url: "https://todo-app-plum-ten.vercel.app/",
       src: "./assets/Todo app.jpg",
       type: "react",
     },
