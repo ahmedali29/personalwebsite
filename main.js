@@ -116,7 +116,7 @@ let projectsList = [
       id: "18",
       name: "Snake game",
       url: "https://snake-game-olive-two.vercel.app/",
-      src: "./assets/Snake game.jpg",
+      src: "./assets/snake game.jpg",
       type: "react",
     },
   /*  {
