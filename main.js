@@ -30,13 +30,6 @@ let projectsList = [
     },
     {
       id: "6",
-      name: "Snake game",
-      url: "",
-      src: "./assets/Snake game.jpg",
-      type: "javascript",
-    },
-    {
-      id: "6",
       name: "To do app",
       url: "https://todo-app-plum-ten.vercel.app/",
       src: "./assets/Todo app.jpg",
@@ -97,6 +90,34 @@ let projectsList = [
       url: "https://new-world-pi.vercel.app/",
       src: "./assets/new world.jpg",
       type: "html",
+    },
+    {
+      id: "15",
+      name: "Bondi website",
+      url: "https://bondi-bootstrap-nine.vercel.app/",
+      src: "./assets/bondi.jpg",
+      type: "html",
+    },
+    {
+      id: "16",
+      name: "Weather forecast ClimaVista",
+      url: "https://climavista.vercel.app/",
+      src: "./assets/climavista.jpg",
+      type: "javascript",
+    },
+    {
+      id: "17",
+      name: "Age Calculator",
+      url: "https://age-calculator-omega-three.vercel.app/",
+      src: "./assets/age calculator.jpg",
+      type: "javascript",
+    },
+    {
+      id: "18",
+      name: "Snake game",
+      url: "https://snake-game-olive-two.vercel.app/",
+      src: "./assets/Snake game.jpg",
+      type: "react",
     },
   /*  {
       id: "6",
